@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-top">
+          <div class="header-top-left">
+            <a href="#" class="header-top-left-link">
+              <img
+                src="./images/logo.svg"
+                alt="Logo"
+                width="306px"
+                height="33px"
+              />
+            </a>
+            <div class="header-top-currency">
+              <p class="header-top-currency-item">
+                <span class="item-icon">$</span>
+                10132.2
+              </p>
+              <p class="header-top-currency-item">
+                <span class="item-icon">P</span>
+                138.26
+              </p>
+              <p class="header-top-currency-item">
+                <span class="item-icon">E</span>
+                10988.72
+              </p>
+            </div>
+          </div>
+          <div class="header-top-right">
+            <div class="header-top-search">
+              <img
+                src="./images/lupa.svg"
+                alt="Search Icon"
+                width="18px"
+                height="18px"
+              />
+            </div>
+            <div class="header-top-language">
+              <img
+                src="./images/russianFlag.png"
+                alt="Language Options"
+                width="20px"
+                height="20px"
+                class="language-image"
+              />
+              <p class="header-top-language-desc">PU</p>
+            </div>
+            <button class="header-button">
+              <img
+                src="./images/header-telegram.png"
+                alt="Header Telegram icon"
+                width="20px"
+                height="20px"
+                class="button-img"
+              />
+              <p class="button-p">Подписатся</p>
+            </button>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="nav_ul">
+            <li class="nav_list">
+              <a href="./index.html" class="nav_link"> Узбекистана</a>
+            </li>
+            <li class="nav_list"><a href="" class="nav_link"> Мир </a></li>
+            <li class="nav_list">
+              <a href="#" class="nav_link"> Экономика</a>
+            </li>
+            <li class="nav_list">
+              <a href="./politics.html" target="_blank" class="nav_link"
+                >Политика</a
+              >
+            </li>
+            <li class="nav_list"><a href="" class="nav_link"> Общество </a></li>
+            <li class="nav_list">
+              <a href="" class="nav_link"> Технологии</a>
+            </li>
+            <li class="nav_list"><a href="" class="nav_link">Спорт</a></li>
+            <li class="nav_list"><a href="" class="nav_link">Культура</a></li>
+            <li class="nav_list">
+              <a href="" class="nav_link">Происшествия</a>
+            </li>
+            <li class="nav_list"><a href="" class="nav_link">Туризм</a></li>
+          </ul>
+        </nav>
+
+        <div class="banner">
+          <img src="./images/advertisement.jpg" alt="banner" class="ban_ner" />
+        </div>
+      </div>
+    </header>
+    <main>
+<section class="main">
+    <div class="main_container container">
+        <div class="form">
+            <h1 class="title">
+                Напишите нам
+
+            </h1>
+            <form action="https://echo.htmlacademy.ru/" method="POST">
+                <label for="name">
+                    <input type="text" placeholder="Имя" id="name" name="name" required>
+                </label> 
+
+                <label for="email">
+                    <input type="email" name="email" id="email"
+                    placeholder="Электронная почта" required>
+                </label>
+              
+                <label for="phonenumber">
+                    <input type="number" name="phonenumber" id="phonenumber" placeholder="Номер телефона" required>
+                </label>
+             
+                <label for="theme">
+                    <input type="text" name="theme" id="theme" placeholder="Тема" required>
+                </label>
+                
+                <label for="text">
+                    <input type="text" name="text" id="text" placeholder="Текст" class="te_xt" required>
+                </label>
+                <label for="file">
+                    <input type="file" name="file" id="file" placeholder="Прикрепить файл " class="fi_le" required>
+                </label>
+                <label for="password">
+                    <input type="password" name="password" id="password" placeholder="Код" class="fi_le" required>
+                </label>
+
+                <input class="send" type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- <aside class="container">
+<div class="aside_container container">
+
+</div>
+</aside> -->
+    </main>
+
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer-top">
+          <div class="footer-top-left">
+            <a href="#" class="footer-top-left-link"> NAMANGANLIK24 </a>
+          </div>
+          <div class="footer_top_right">
+            <p class="footer_text">
+              Подписывайтесь на наш канал в Telegram и будьте всегда в курсе
+              самых последних новостей:
+            </p>
+            <button class="footer_button">
+              <img
+                src="./images/footer-telegram.png"
+                alt="Header Telegram icon"
+                width="20px"
+                height="20px"
+                class="button-img"
+              />
+              <p class="button-footer">Подписатся</p>
+            </button>
+          </div>
+        </div>
+        <hr class="h_r" />
+
+        <div class="about_info">
+          <h2 class="title_about">О сайте</h2>
+          <p class="text_about">
+            Воспроизводство, копирование, тиражирование,<br />
+            распростране ние и иное использование <br />
+            информации с сайта «NAMANGANLIKLAR24.UZ» <br />
+            возможно только с предварительного письменного <br />
+            разрешения редакции.
+          </p>
+        </div>
+
+        <nav class="footer_nav">
+          <ul class="nav_footer">
+            <li class="nav_link_footer">
+              <a href="" class="link_nav_footer">Информация о сайте </a>
+            </li>
+            <li class="nav_link_footer">
+              <a href="" class="link_nav_footer"> Напишите нам </a>
+            </li>
+            <li class="nav_link_footer">
+              <a href="" class="link_nav_footer"> Реклама </a>
+            </li>
+            <li class="nav_link_footer">
+              <a href="" class="link_nav_footer"> Прислать новость</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="footer_second">
+          <ul class="footer_nav_second">
+            <li class="nav_link_footer">
+              <a href="" class="link_nav_footer">Использование материалов </a>
+            </li>
+            <li class="nav_link_footer">
+              <a href="" class="link_nav_footer"> Темы дня </a>
+            </li>
+            <li class="nav_link_footer">
+              <a href="" class="link_nav_footer">Наша команда</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
